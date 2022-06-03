@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    font-family: Raleway, sans-serif;
+    font-weight: normal;
+}
+
+.container{
+    display: block;
+}
+
+.wrapper{
+    background-color: white;
+    display: flex;
+    margin-bottom: 1.1rem;
+    position: sticky;
+    top: 6rem;
+    
+} 
+.wrappertwo{
+ background-color:rgb(6, 50, 113);
+ height: 50vh;
+ display: flex;
+}
+.wrappertwo .mint__content__2 h1{
+
+    padding-right: 10rem;
+    font-size: 10px;
+    color: #ceab06;
+}
+.wrapper .mint__content__1 h2{
+    display: flex;
+}
+.wrapper .mint__content__1{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding-top: 1rem;
+}
+
+.wrapper .mint__content__1 h2{
+    margin-left: 2.5rem;
+    font-family: inherit;
+    font-weight: bolder;
+    color: rgb(17, 17, 17);
+}
+
+.wrapper .menu {
+     color: rgb(17, 17, 17);
+     font-size: larger;
+     margin-left: 44rem;
+     padding-top: 1rem;
+     
+}
+.wrapper .menu a{
+    flex: 1;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+}
+
+.wrapper .menu a:hover{
+    color: blue;
+}
+
+.wrappertwo{
+    background-color:rgb(6, 50, 113);
+    height: 87vh;
+    display: flex;
+    flex-direction: row;
+    column-gap: 14rem;
+}
+
+.wrappertwo .mint__content__2{
+    padding-top: 5.5rem;
+    padding-left: 15rem;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrappertwo .mint__content__2 h1{
+    font-size: 68px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 3rem;
+}
+
+.wrappertwo .mint__content__2 button{
+    color: white;
+    width: 11vw;
+    height: 7vh;
+    transition: all 0.5s;
+    border: 0; 
+}
+
+.wrappertwo .mint__content__2 button a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;  
+}
+
+.wrappertwo .mint__img{
+   padding-top: 5.5rem;
+   height: 25px;
+   width: 15px;
+}
+
+.wrapperthree{
+    background-color:rgb(35, 35, 35);
+    height: 85vh;
+}
+
+.wrapperthree .mint__content__3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+ }
+
+ .wrapperthree .mint__content__3 h2{
+     color: white;
+     font-size: 40px;
+ }
+
+ .wrapperthree .mint__column{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: row;
+     column-gap: 4rem;
+ }
+ 
+ .wrapperthree .mint__column .home{
+     text-align: center;
+ }
+
+ .wrapperthree .mint__column span img{
+     margin-bottom: 2rem;
+     border: #ceab06 solid 3px;
+    border-radius: 50px;
+ }
+
+ .wrapperthree .mint__column h3{
+     color: white;
+     margin-bottom: 2rem;
+     text-align: center;
+ }
+
+.wrapperthree .mint__column p{
+    color: white;
+    font-size: large;
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.wrapperthree .mint__column .laundary{
+    text-align: center;
+}
+
+.wrapperthree .mint__column .factory{
+    text-align: center;
+}
+
+.wrapperthree .mint__column .laundary span img{
+   margin-top: 5.2rem;
+}
+
+.wrapperfour{
+    display: block;
+}
+
+.wrapperfour .mint__content__4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.wrapperfour .mint__content__4 h2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 15rem;
+}
+
+.wrapperfour .content__4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.wrapperfour .content__4 h2{
+     color: black;
+     font-size: 30px;
+}
+
+ 
+
+
+
+
+
+
+
+
